@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  max-height: 650px;
+}
+
+.container-fluid {
+  padding: 3% 10% !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: translate(-200px, -100px);
+  /* transform: rotate(30deg); */
+  
+}
+
+.fontelem {
+  text-align: center;
+  padding: 2% 5% !important;
+  font-size: 0.9rem !important;
+}
+
+.kkico {
+  margin: 10px 0 30px;
+  color: #ef8172;
+}
+
+.kkico:hover {
+  color: #ff4c68;
+}
+
+
+#features {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+}
+
+/* testimonials */
+
+#testimonials{
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  height: 320px;
+}
+
+.test-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px;
+  object-fit: cover;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#press > .press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.c-cta {
+  background-color:  #ef8172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.c-cta .btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  background-color: #1c1f23;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.carousel-item {
+  width: 90% !important;
+  height: 100% !important;
+  padding-left: 10% !important;
+}
+
+.item-p {
+  margin: 1.5rem;
+}
+
+.card {
+  height: 350px !important;
+  width: 300px !important;
+  background-color: #ef8172 !important;
+  border: none !important;
+  /* padding: 2rem !important; */
+}
+
+.con-p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.c-top-p {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100% !important;
+  height: 250px !important;
+  background-color: #fff;
+  border: 0.5px solid #acb2b7;
+  border-bottom: none !important;
+}
+
+.card-body {
+  position: relative !important;
+}
+
+.download-button-p {
+  position: absolute;
+  bottom: -25px;
+  left: 60px;
+}
